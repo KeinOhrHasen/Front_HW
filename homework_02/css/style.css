@@ -1,0 +1,308 @@
+/* 
+
+please don't edit this styles
+
+*/
+
+
+a:focus{color:#666;outline:0}
+
+ul{padding:0;margin:0}
+
+body{background-color:#f2f2f2;color:#000;font-family:'Open Sans',Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;padding-top:30px;overflow-x:hidden}
+
+.box,.tm-content-box,.tm-main-nav{background-color:#fff}
+
+.tm-sidebar{position:fixed;width:360px}
+
+.tm-main-nav{font-size:1.6667em;padding-top:15px;padding-bottom:10px;text-align:center}
+
+.tm-nav-item{list-style:none;width:100%;padding:15px 30px}
+
+.tm-nav-item-link{border:1px solid transparent;color:#666;display:block;padding:10px;width:100%;-webkit-transition:all .3s ease;transition:all .3s ease}
+
+.carousel-indicators li,.tm-banner-inner{border:1px solid #999}
+
+.flex-2-col,.tm-banner-inner{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox}
+
+.tm-nav-item-link.active,.tm-nav-item-link:hover{color:#666;text-decoration:none;border:1px solid #999}
+
+.tm-nav-item-link:focus{text-decoration:none}
+
+.tm-banner-text,.tm-banner-title,.tm-section-title{color:#666;font-weight:300;margin-top:0}
+
+.tm-section-title{margin-bottom:20px}
+
+.tm-section-title-box{margin-bottom:0}
+
+.tm-banner-title{font-size:3.3em;letter-spacing:2px;text-transform:uppercase}
+
+.tm-main-content{margin-left:360px;padding-left:30px}
+
+.tm-content-box{margin-bottom:30px}
+
+.pad{padding:50px}
+
+.tm-banner{height:370px;padding:30px}
+
+.tm-banner-inner{height:100%;text-align:center;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}
+
+.tm-banner-text{font-size:1.4em}
+
+.flex-2-col{display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}
+
+.boxes,.tm-box-bg-title{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox}
+
+.flex-item{-webkit-box-flex:0 1 auto;-webkit-flex:0 1 auto;-ms-flex:0 1 auto;flex:0 1 auto}
+
+.section-description{line-height:1.8;margin-bottom:25px}
+
+.section-description:last-child{margin-bottom:0}
+
+.tm-team-description-container{max-width:500px}
+
+.box{list-style:none;width:33.3333%;height:auto}
+
+.box-bg{position:relative}
+
+.tm-box-bg-title{position:absolute;top:0;right:0;bottom:0;left:0;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}
+
+.boxes{display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}
+
+.gallery-container a{cursor:-webkit-zoom-in;cursor:zoom-in}.carousel{position:relative;height:auto;padding:50px 50px 80px;text-align:center}
+
+.carousel-indicators{bottom:30px}
+
+.carousel-content{color:#000;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}
+
+.carousel-indicators .active{background-color:#999}
+
+.contact-form{overflow:hidden}
+
+.form-control{border-radius:0;font-size:1em}
+
+.form-control:focus{border-color:#999;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(153,153,153,.45)}
+
+.form-group{margin-bottom:20px}
+
+.form-group-2-col-left{padding-left:0;padding-right:5px}.form-group-2-col-right{padding-right:0;padding-left:5px}
+
+.submit-btn{border-radius:0;background:0 0;border:1px solid #999;color:#999;float:right;font-size:1.4em;font-weight:300;padding:15px 60px;-webkit-transition:all .3s ease;transition:all .3s ease}
+
+.submit-btn:active,.submit-btn:active:focus,.submit-btn:active:hover,.submit-btn:focus,.submit-btn:hover,.submit-btn:visited{background:#999;border:1px solid #999;color:#fff}
+
+.tm-footer{color:#666;padding-bottom:15px}
+
+
+
+
+
+
+/*My own code*/
+
+
+
+
+/*#1*/
+/*to justice all page*/
+.tm-main-content {
+    margin: 0 auto;
+    padding-left: 30px;
+}
+    
+/*hide left sidebar*/
+.tm-sidebar{
+    display:none
+}
+
+/*decrease tm-banner*/
+.tm-banner {
+    height: 250px;
+    padding: 30px;
+}
+
+/*delete flex-property*/
+.flex-2-col{
+    display:block;
+    display:block;
+    display:block}
+
+/*change dimension of first block */
+.container>div>section>div>div[class^="pad"]{
+    padding: 30;
+    margin: 0 auto;
+}
+
+/*change tm-section-color to blue*/
+.container>div>section>div>div>h2{ 
+    color:blue;
+}
+
+/*stretch out the first block*/
+div>div[class^="pad"].tm-team-description-container{max-width:100%}
+
+/*align image*/
+div.tm-content-box>div img{
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+/*fix overlappping*/
+/*#2*/
+#about li{
+    border:0px!important;
+    border-left:1px solid silver!important;
+    border-top:1px solid silver!important;
+}
+
+#about li:nth-child(3n){
+    border-right:1px solid silver!important;  
+}
+
+#about li:nth-child(n+7){
+    border-bottom:1px solid silver!important;  
+}
+
+
+
+
+/*#3*/
+/*Change color of first letter in each paragraphs to 76cdd7,  Font size to 30px*/
+p::first-letter{
+    font-size: 30px;
+    color: #76cdd7;
+}
+
+
+
+
+/*4*/
+/* Add box shadow to sidebar and each content block*/
+.tm-sidebar{
+    display:block;
+}
+
+.tm-main-content{margin-left:360px;padding-left:30px}
+
+.tm-main-nav{
+    box-shadow: 5px 5px 20px black
+}
+section {
+    box-shadow: 5px 5px 20px black
+} 
+
+
+
+
+/*#5*/
+/*Add silver border to each img which is in <a> tag in gallery-container 2px width*/
+.boxes a img{
+    border:2px silver solid
+}
+
+
+
+
+/*#6*/
+/*Change color of ‘How We Do It’ to gainsboro and add letter spacing 5px*/
+div.carousel-item:nth-child(1) .tm-section-title{
+    color:gainsboro;
+    letter-spacing: 5px
+}
+
+
+
+/*#7*/
+/*Each first paragraph which placed after h2 tag should have italic font style*/
+h2+p{
+    font-style: italic
+}
+
+
+
+/*#8*/
+/*Text in paragraph should look like in image below. (vertical space between lines is increased, there is some free space at start of first line)*/
+
+h2.tm-section-title ~ p{
+    text-indent: 30px;
+    }
+
+
+
+
+/*#9*/
+/* The color of visited links */
+section.heading li a{
+    color: black; 
+}
+
+section.heading a:visited {
+    color: silver; 
+}
+
+ol a:hover {
+    color: blue!important; 
+    text-decoration: underline;
+}
+
+section.heading li:nth-child(1)::after, section.heading li:nth-child(3)::after{
+    content:"new";
+    color:red;
+    vertical-align:super;
+    font-size: 0.7rem;
+}
+
+
+
+/*10*/
+/*Add layout and styles for following block. */
+
+ div ul li p::first-letter{
+    font-size: 30px;
+    color: black;
+}
+
+ div[class="tm-content-box"] ul li:nth-child(2n){
+    background: #f2f2f2
+}
+
+
+
+/*11*/
+/*Take a look to sidebar. We need silver border on the bottom side of all list item. But last one should not have such border*/
+ div[class="tm-sidebar"] li:nth-child(n+2){
+    border-top:1px solid silver!important;
+     
+}
+
+
+/*12*/
+/*Change text color in text input and submit button to red. Use attribute type selector*/
+.form-control, .submit-btn{
+    color:red
+}
+
+
+
+
+/*13*/
+@media screen and (max-width: 1000px),screen and (max-height:500px){
+.tm-main-nav li{
+    margin: 0 auto;
+    display:inline-block;
+    background: red;
+    
+    }
+.tm-sidebar{position: fixed;
+    z-index: 1000;
+/*    display:inline-block;*/
+    }
+    
+.tm-main-content {
+    margin: 0 auto;
+    padding-top: 100px;
+}
+}
