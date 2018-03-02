@@ -1,0 +1,55 @@
+@import "variables2";
+@import "main";
+
+
+body{
+    color:white;
+    background:  $body-col;
+    
+    #content{
+    background:$content-col;   
+    }
+}
+
+h1, h2{
+    color:$title-col;
+    }
+
+.brief{
+    float:none;
+    width:96%;
+    background: $brief-col;
+    margin-bottom: 50px;
+    color:black;
+}
+
+img{
+    outline: 2px solid $title-col;
+    outline-offset: 2px;
+}
+
+table{
+    tr:nth-child(1) th{
+        background:$table-title-col;
+    }
+    td{ 
+        border-bottom: 1px solid $table-title-col;
+        background: $table-td-col;  
+    }
+}
+
+
+fieldset{
+        color: $form-text;
+}
+
+
+.send-btm{
+    color: $form-text;
+    background: $content-col;
+    border: 1px solid $form-text;
+}
+
+a{
+    color: $title-col;
+}

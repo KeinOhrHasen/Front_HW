@@ -1,0 +1,46 @@
+@import "variables1";
+@import "main";
+
+body{
+    background:  $body-col;
+    
+    #content{
+    background:$content-col;   
+    }
+}
+
+h1, h2{
+    color:$title-col;
+    }
+
+.brief{
+    background: $brief-col;
+}
+
+img{
+    outline: 2px solid $title-col;
+    outline-offset: 2px;
+}
+
+table{
+    tr:nth-child(1) th{
+        background:$table-title-col;
+    }
+    td{ 
+        border-bottom: 1px solid $table-title-col;
+    }
+}
+
+
+fieldset{
+        color: $form-text;
+}
+
+
+.send-btm{
+    color: $send-btm-col;
+    background: $content-col;
+    border: 1px solid $send-btm-col;
+}
+
+

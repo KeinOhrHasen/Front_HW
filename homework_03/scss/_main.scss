@@ -1,0 +1,95 @@
+@mixin marg-padd-zero(){
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    @include marg-padd-zero(); 
+    #content{
+    background:white;
+    width:1000px;
+    margin: 0 auto;
+    padding: 20px;
+        
+    }
+}
+
+
+h1{
+    text-align: center;
+}
+
+.img-left, .brief{
+    float:left;
+    margin-right: 20px; 
+    margin-bottom: 10px;
+}
+
+.brief{
+    width:300px;
+    padding:20px
+    
+}
+
+.img-right{
+    float:right;
+    margin-left: 20px;
+}
+
+img{
+    outline: 2px solid black;
+    outline-offset: 2px;
+}
+
+caption{
+    text-align:right;
+}
+
+table{
+    tr:nth-child(1) th{
+        text-transform: uppercase;
+        font-weight:normal;
+        text-align: left;
+        padding:5px;
+        padding-left: 15px;
+    }
+    td{ 
+        padding:5px;
+        padding-left: 15px;
+    }
+}
+
+fieldset{
+        border-style: none;
+        @include marg-padd-zero();
+        padding: 15px 0 15px ;
+        margin-right: 15px;
+        display:inline-block;
+        width:47%;
+        input{
+        width: 100%
+        }
+    textarea{
+        width: 100%;
+        height: 100px  
+    }
+    
+
+}
+
+fieldset.oth{
+        display:block;
+        width: 96%;
+
+    input{
+        width: 100%
+    }
+}
+
+
+.send-btm{
+    width: 200px;
+    padding: 10px;
+}
