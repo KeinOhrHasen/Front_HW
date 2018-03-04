@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+.mg-pd-0{margin: 0;padding: 0}
+
+/*Colors*/
+.grey-blue{color:#B7C8D9}
+.white{color:#FFF}
+.crema-white{color:#F3F3F3}
+.grey{color:#A4A4A4}s
+.crema-white2{color:#F0F0F0}
+.black{color:#000}
+.blue-black{color:#343638}
+.grey-bright{color:#E8E8E8}
+.grey-dark{color:#9E9E9E}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+header{
+    background-image: url("/img/apples.jpg");
+    background-size:1200px;
+    width: 100%;
+    height:500px;
+    color:#F3F3F3;  
+}
+
+.small-logo{
+    position:absolute;
+    top:40px;
+    left:150px;
+    letter-spacing: 0.2em;
+}
+
+.nav li{
+    list-style: none;
+    display:inline-block;
+    margin: 10px 0px 20px;
+}
+
+.nav a{  display:block;
+    color: #F3F3F3;
+    text-decoration: none;
+    padding: 20px;
+    border-bottom: 2px solid rgba(183, 200, 217, 0)
+}
+
+.nav{margin-left: 50%}
+
+.big-logo{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 60px;
+    letter-spacing: 0.2em;
+}
+
+.ampersant{
+    font-size: 70px;
+    font-family: 'Pacifico';
+}
+
+.logo-text{
+    text-align: center;
+    font-size:0.9rem; 
+}
+
+.read-more-btn{
+    text-align: center;
+    width: 150px;
+    padding: 12px;
+    margin: 0 auto;
+    margin-top:10%;
+    border:solid 1px #F3F3F3;
+    background: #343638;
+}
+
+.nav a:hover{border-bottom: 2px solid #B7C8D9}
+
+.text1, .text2{
+    width: 50%;
+    float: left;
+    padding: 60px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.text1{font-size: 1.4rem} 
+
+.bolt-text{font-weight: 600}
+
+.text2{padding-left: 0} 
+
+.content-gallery{
+    clear: both;
+    background: #E8E8E8;
+}
+
+.content-gallery .title{
+    height: 200px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 90px;
+    font-size: 1.4rem;
+}
+
+.gallery{
+    width: 95%;
+    margin: 0 auto;
+
+}
+.gallery li{
+    list-style:none;  
+    display: inline-block;
+}
+
+.gallery li a{
+    display: block;
+    margin: 10px;
+}   
+
+.gallery img{
+    height:250px;
+    display:block;
+}
+
+#li-1, #li-2, #li-3, #li-4, footer{position:relative}
+
+.gallery p{
+    position: absolute;
+	top	: 210px;
+	left: 40px;
+	width: 100%;
+    color: #FFF;
+    font-weight: 600;
+}
+
+.gallery p::before{
+    content: "January'15";
+    color:#E8E8E8
+}
+
+.likes{
+    position: absolute;
+	top: 40px;
+	right: 40px;
+	width: 40px;
+    text-align: center;
+    color: #E8E8E8;
+    background: #343638;
+    padding: 7px;
+    border: solid 1px #FFF;
+}
+
+.cont-subscribe{
+    width: 90%;
+    background: #FFF;
+    height: 100px;
+    margin:  0 auto;
+    margin-top: 30px;
+    padding-top:70px
+}
+
+form{
+    width:700px;
+    margin: 0 auto;
+    font-size: 1.3rem;
+}
+
+input{
+    margin: -4px;
+    padding: 0;
+    padding: 15px 30px;
+    border:1px solid #000;
+}
+    
+input[type^='text']{
+    background: #E8E8E8;
+    width:300px;
+    margin-left: 10px}
+    
+input[type^='button']{
+    background: #343638;
+    color:#F3F3F3;
+}
+
+input::-webkit-input-placeholder { color:#000}
+
+.stuff{
+    height: 150px;
+    width: 100%;
+    background: #E8E8E8;
+}
+
+footer{height: 320px}
+
+.footer-content{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content div{
+    float:left;
+    width: 20%;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.footer-content div:nth-child(3) p:nth-of-type(2){font-style: italic}
+
+.footer-content div:nth-child(3) p:nth-of-type(3){color: #E8E8E8}
+
+.footer-content div:nth-child(4) p:nth-of-type(2){font-size: 0.95rem}
+
+.footer-content div:nth-child(2) p:nth-of-type(2){line-height: 1.9}
+
+.footer-content div p:nth-of-type(2){color: #9E9E9E}
+
+.footer-content div:nth-child(4) p:nth-of-type(3) input{
+    padding: 7px;
+    color:#F3F3F3;
+}
+
+.footer-content div:nth-child(4) p:nth-of-type(3) input[type^="text"]{
+    width: 105px;
+    margin-right: -4px;
+}
+
+.footer-content div:nth-child(4){width: 25%}
+
+footer ul{color:#000}
+
+footer .nav a:hover{border-bottom: none}
+
+footer .nav a{color:#000}
+
+footer hr{
+    clear: both;
+    border-top: 1px solid #E8E8E8;
+    width: 90%;
+}
+
+.some-ng{
+    position:absolute;
+    bottom: 27px;
+    left: 50px;
+    color:#9E9E9E;
+}
+
+footer input::-webkit-input-placeholder{color:#9E9E9E}
