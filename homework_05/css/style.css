@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size:14px;
+    font-family:Arial, Helvetica, "sans-serif";
+    color: #333;
+}
+
+/*Colors*/
+/*
+#fff      white
+#333      grey dark
+#464547   gray dark2
+#39c2d7   blue sky
+##d4d1d1   gray bright
+*/
+
+
+/*HEADER*/
+.logo img{
+    height: 50px;
+    float:left;
+    margin-left: 15%;
+}
+
+header{
+    clear: both;
+    height: 85px;
+    padding-top:15px;
+    box-sizing: border-box;
+}
+
+.nav{float:left}
+
+.nav li{
+    list-style: none;
+    display: inline-block;       
+}
+
+.nav a{
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 20px
+}
+
+.nav a:hover{color:#39c2d7}
+
+
+/*BANNER*/
+
+.banner-box{
+    background-image: url("/img/banner.jpg");
+    background-size:100% 100%;
+    width: 100%;
+    padding-top:31.82%; /*100/1320*420*/
+    position:relative;
+}
+
+.ban-box-text{
+    position: absolute;
+    top:10px;
+    width: 300px;
+    margin-left: 15%;
+    margin-top: 5%;
+    color: #fff;
+    font-size:2rem;
+}
+
+
+/*Content*/
+
+.content{
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.content-child{
+    width: 31.65%;
+    margin-top: 2.5%;
+    margin-right: 2.5%;
+    background: #d4d1d1;
+}
+
+.content-child img{
+    width: 90%;
+    margin:5%;
+}
+
+.content-child p{margin:0 5% 2% 5%}
+
+a{
+    text-decoration: none;
+    color: #464547;
+} 
+
+.content div:hover{background:#39c2d7}
+
+.content-child p:nth-of-type(1){font-weight: 600;}
+
+.content-child:nth-child(n+4){margin-bottom: 2.5%}
+
+.content-child:nth-child(3n){margin-right: 0%}
+
+
+/*FOOTER*/
+
+footer{
+    clear:both;
+    overflow: hidden;
+    background: #39c2d7;
+    color:white;
+}
+
+.foo-list ul{padding: 0;}
+
+.foo-list{
+    margin-left: 15%;
+    float:left;
+}
+
+.foo-list li{
+    list-style: none;
+    display: inline-block;       
+}
+
+.foo-list a{
+    padding-right: 15px;
+    color: inherit;
+    text-decoration: none;
+    display: block;
+}
+
+.foo-rights{
+    padding:15px;
+    float:left;}

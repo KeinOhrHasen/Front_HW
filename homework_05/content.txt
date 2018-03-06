@@ -1,0 +1,47 @@
+Header:
+
+- Solutions
+- About
+- Careers
+- Contact
+
+--------------  
+
+
+Banner:
+
+Epam helps moneysupermarket deliver engaging digital experiences
+
+--------------
+
+
+News:
+
+EPAM Acquires Alliance Global Services
+Increases Global Product Development Capabilities
+
+Q2 2015 Earnings Results Date Announced
+Results will be released on August 5, 2015
+
+EPAM Acquires NavigationArts
+Expands Digital Engagement Practice
+ 
+Top 25 IT-companies in Ukraine, July 2015
+Growth recovery and a new leader
+ 
+German-Ukrainian Business Forum
+Learn why Ukraine is a perfect sourcing location for IT services
+
+User Friendly 2015
+Stop by our Booth #2 to learn more about recent initiatives launched across the UX domain
+
+--------------
+
+
+Footer:
+
+- Investor Relations
+- Contact
+- Privacy Policy
+
+© 2015 EPAM Systems. All Rights Reserved.
