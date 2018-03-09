@@ -176,7 +176,7 @@ input{
     
 input[type^='text']{
     background: #E8E8E8;
-    width:300px;
+    width:200px;
     margin-left: 10px}
     
 input[type^='button']{
