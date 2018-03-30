@@ -1,0 +1,75 @@
+/* Your styles goes here */
+body{
+    font-size:20px;
+    margin: 0;
+    padding: 0;
+}
+
+.EmptyFolder{font-style: italic}
+
+.Container {
+    padding: 0;
+    margin: 0;
+}
+
+li {list-style-type: none}
+
+
+/* indent for all tree children excepts root */
+.Node {
+    background-image : url(img/i.gif);
+    background-position : top left;
+    background-repeat : repeat-y;
+    margin-left: 25px;
+}
+
+#TheRoot, #TheRoot>li {
+    margin: 0;
+    padding: 0;
+}
+
+.ExpandOpen .withImage {
+    background-image: url(material-icons/folder_black/black_open_1x.png);
+}
+
+/* closed is higher priority than open */
+.ExpandClosed .withImage {
+    background-image: url(material-icons/folder_black/black_1x.png);
+}
+
+/* highest priority */
+
+* html .Content {height: 25px}
+
+.withImage, .filePict {
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+
+.Content {
+    min-height: 25px;
+    margin-left:25px;
+}
+
+/*My custom style: You cat track the hierarchic of your search */
+/*li:hover{background: grey}  */
+
+
+li>div:hover, li>div:hover + div {background-color: #dbdbdb}
+
+li>.Content:hover  {
+    background-color: #dbdbdb; 
+    margin-left: 0px;
+}
+
+.filePict{
+    background-image: url(material-icons/folder_black/file_black_1x.png)} 
+
+.ExpandOpen .Container {display: block;}
+
+.ExpandClosed .Container {display: none}
+
+.ExpandOpen .Expand, .ExpandClosed .Expand {cursor: pointer}
+
+.ExpandLeaf .Expand {cursor: auto}
