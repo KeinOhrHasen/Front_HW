@@ -1,0 +1,148 @@
+body{
+    background: #489562;
+    margin: 0;
+    padding: 0;
+    font-size:1.2rem;
+    font-family: 'Neucha', cursive;
+}
+
+header{
+    height: 100px;
+/*    background: #784551;*/
+    margin-bottom: -19px;
+}
+
+footer{
+    background: #1c3339;
+    text-align: center;
+    padding: 75px;
+    font-size: 1.5rem;
+    color:#eaeaea
+}
+
+nav{
+    height: 60px;
+    background: rgba(18, 59, 57, 0.99);
+    }
+
+article{
+    width: 80%;
+    background: rgba(255, 255, 0, 0.83);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav li{
+    display:inline-block;
+    list-style-type: none;
+}
+nav ul{
+    display: flex;
+    justify-content:space-between;
+}
+nav>ul>li>a{
+    display: block;
+    height: 61px;
+    width: 100px;
+    color:rgba(255, 42, 42, 0.99);
+    font-weight: 600;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
+
+/*pictures*/
+.pysanca{
+    max-width: 300px;
+    max-height: 450px;
+    float:right;
+}
+
+.making{
+    max-width: 300px;
+    max-height: 200px;
+}
+    
+.kanada{max-width: 400px}
+
+.kolomya{
+    float:left;
+    max-width: 400px;
+    max-height: 300px;
+}
+
+.coin{
+    max-width: 200px;
+    max-height: 150px;
+}
+
+p a{text-decoration: underline}
+
+p{text-indent: 40px}
+
+img{
+    float:right;
+    margin: 10px;
+}
+
+article li{
+
+    list-style-type: none;
+    display: block;
+    margin-bottom: 100px;  
+}
+
+article ul {
+    margin: 0;
+    padding: 0;  
+}
+
+h2{text-align: center}
+
+table, td, th{
+    border: 2px solid red;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+td {
+    text-align: justify;
+    padding: 10px     
+}
+
+table{width: 80%}
+
+/*header*/
+.title, .register{
+    float: left;
+    display:block;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.title{
+    font-size: 3rem;
+    padding-top: 30px;
+    width: 70%;    
+}
+
+.register{
+    width: 30%;
+    font-size: 1.5rem;
+    padding-top: 50px;
+}
+
+.maister-class{
+    width: 560px;
+    margin: 0 auto;
+}
+
+#form{
+    width: 300px;
+    margin: 0 auto
+}
