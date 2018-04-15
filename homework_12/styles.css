@@ -1,0 +1,98 @@
+body{
+    background: #1C1C1E;
+    margin: 0;
+    padding: 0;
+}
+
+li:hover{background: #2C2C2C}
+
+/*font color  #A19E89*/
+/*table color  #D6D1BA*/
+
+.newImgDiv{
+    background-size: 100% 100%;
+    width: 200px;
+    height: 146px;
+}
+
+.divForFlag, .previewBox1Flag{
+    width: 29px;
+    height: 18px;
+}
+
+li{
+    display: block;
+    list-style-type: none;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.newCommonDiv div{
+    float: left;
+    margin-right: 7px;
+}
+
+
+.divForFlag + div{color: #A19E89}
+
+.newCommonDiv:nth-child(n+2){color: #D6D1BA}
+
+.newCommonDiv{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*style for details page*/
+
+.previewBox3, .previewBox2{
+    color: #A19E89;
+    float: left;
+    width: 50%; 
+}
+
+.previewBox1{color: #A19E89}
+
+.previewBox1Flag, .previewBox1Level, .previewBox1Model{
+    display: inline-block;
+    margin-right: 7px
+}
+
+.previewLabel, .backToList, .tableLabel{
+    font-size: 20px;
+    font-weight: bold
+}
+
+.previewCommon{padding: 20px 0}
+
+.previewBox1Model, .previewBox1Level{font-size: 30px}
+
+.tankImg{height: 438px}
+
+table{
+    width: 95%;
+    margin: 0 auto;
+}
+ 
+table td{
+    border: 1px solid #D6D1BA;
+    padding: 10px;
+    font-weight: bold;
+}
+
+table tr:nth-child(1){width: 75%}
+
+table tr:nth-child(1){width: 25%}
+
+table, td{border-collapse: collapse}
+
+.tableLabel{
+    text-indent: 2.5%;
+    margin-bottom: 30px
+}
